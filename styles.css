@@ -17,7 +17,7 @@ main {
 header {
   border: 10px solid black;
 }
-@media handheld, screen and (min-width: 786px) {
+@media only screen and (min-width: 786px) {
   img {
     width: 60%;
     height: auto;
@@ -80,7 +80,7 @@ header {
     border: 10px solid black;
   }
 }
-@media handheld, screen and (min-width: 500px) and (max-width: 786px) {
+@media only screen and (min-width: 500px) and (max-width: 786px) {
   .grid-container {
     display: grid;
     grid-gap: 10px;
@@ -142,7 +142,7 @@ header {
     border: 10px solid black;
   }
 }
-@media handheld, screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .grid-container {
     display: grid;
     grid-gap: 10px;
